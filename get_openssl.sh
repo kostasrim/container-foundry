@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-OPENSSL_VERSION="3.0.17"
+OPENSSL_VERSION="3.4.5"
 OPENSSL_DIR="/usr/local/ssl"
 CONFIGURE_PARAMS="no-shared no-tests no-idea no-mdc2 no-rc5 no-zlib no-ui-console no-ssl3 no-ssl3-method enable-rfc3779 enable-cms no-capieng no-rdrand"
 
